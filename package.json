@@ -4,10 +4,11 @@
   "description": "A JavaScript lab",
   "main": "index.js",
   "scripts": {
+    "start": "json-server --watch db.json",
     "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
   },
   "author": "flatironschool",
-  "license": "Included in Repo",
+  "license": "UNLICENSED",
   "devDependencies": {
     "babel-core": "6.26.3",
     "babel-preset-env": "1.7.0",
@@ -23,5 +24,16 @@
     "nock": "^10.0.2",
     "node-fetch": "^2.6.1",
     "sinon": "^7.3.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meggiddy/phase-1-sending-data-with-fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meggiddy/phase-1-sending-data-with-fetch/issues"
+  },
+  "homepage": "https://github.com/meggiddy/phase-1-sending-data-with-fetch#readme"
 }
