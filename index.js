@@ -1,7 +1,7 @@
 // Add your code here
 const form = document.getElementById("form");
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
+  //e.preventDefault();
 });
 
 function submitData(name, email) {
